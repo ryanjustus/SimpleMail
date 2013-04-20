@@ -1,7 +1,9 @@
 SimpleMail
 ==========
 
-Simple wrapper for javax.mail.  Supports attachments, multiple recipients
+Simple wrapper for javax.mail.  Supports attachments, multiple recipients. I wrote this because I needed to
+be able to construct an email with an attachment from a byte array and reference the attachment in the html
+content of the email.
 
 Basic Usage:
 ```java
